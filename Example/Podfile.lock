@@ -1,0 +1,16 @@
+PODS:
+  - HHPlaceholderView (0.1.0)
+
+DEPENDENCIES:
+  - HHPlaceholderView (from `../`)
+
+EXTERNAL SOURCES:
+  HHPlaceholderView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHPlaceholderView: 6d1290f5d044bd62b9ed3cdf335b214fa607a12c
+
+PODFILE CHECKSUM: 59995d862991c98badacbc0b3b5cc608f9b5e26d
+
+COCOAPODS: 1.8.4

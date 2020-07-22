@@ -1,0 +1,6 @@
+framework module Pods_HHPlaceholderView_Tests {
+  umbrella header "Pods-HHPlaceholderView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module HHPlaceholderView {
+  umbrella header "HHPlaceholderView-umbrella.h"
+
+  export *
+  module * { export * }
+}
