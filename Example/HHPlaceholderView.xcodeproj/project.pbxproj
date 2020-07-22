@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		0A6F95FD65DFB80A12930D96 /* Pods-HHPlaceholderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHPlaceholderView_Tests.release.xcconfig"; path = "Target Support Files/Pods-HHPlaceholderView_Tests/Pods-HHPlaceholderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		21B523604B6935C2F8545B6E /* Pods-HHPlaceholderView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHPlaceholderView_Example.release.xcconfig"; path = "Target Support Files/Pods-HHPlaceholderView_Example/Pods-HHPlaceholderView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		31571DA9AEF4D3D89E55B14D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		40E4F90E654F683561EFA1A5 /* HHPlaceholderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HHPlaceholderView.podspec; path = ../HHPlaceholderView.podspec; sourceTree = "<group>"; };
+		31571DA9AEF4D3D89E55B14D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40E4F90E654F683561EFA1A5 /* HHPlaceholderView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHPlaceholderView.podspec; path = ../HHPlaceholderView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F7ACDB791FB348E7199CCF1 /* Pods-HHPlaceholderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHPlaceholderView_Example.debug.xcconfig"; path = "Target Support Files/Pods-HHPlaceholderView_Example/Pods-HHPlaceholderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HHPlaceholderView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHPlaceholderView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		81981C7C49152C1701DAC14F /* Pods_HHPlaceholderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHPlaceholderView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF96F19FB2F17F30AAB86E3 /* Pods_HHPlaceholderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHPlaceholderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B41602A7D4E5B343F27BB83E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B41602A7D4E5B343F27BB83E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E4A3C13B43BA5878CD1D89FA /* Pods-HHPlaceholderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHPlaceholderView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HHPlaceholderView_Tests/Pods-HHPlaceholderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				E4A3C13B43BA5878CD1D89FA /* Pods-HHPlaceholderView_Tests.debug.xcconfig */,
 				0A6F95FD65DFB80A12930D96 /* Pods-HHPlaceholderView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
