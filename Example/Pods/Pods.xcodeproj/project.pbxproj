@@ -9,15 +9,17 @@
 /* Begin PBXBuildFile section */
 		00ABD375FEDF0EEA93F5ED648C19254A /* Pods-HHPlaceholderView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDD7EF4101ABC317C712B97EAD8434 /* Pods-HHPlaceholderView_Example-dummy.m */; };
 		073DBD9C0B5606E9679C52E0E912CF93 /* Pods-HHPlaceholderView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3D6F85700A2E039242FEC3CE4AFB6B /* Pods-HHPlaceholderView_Tests-dummy.m */; };
-		1394D1CA95C7087F219BD46650FD0C6D /* HHPlaceholderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9271B0C6980CD11E6799CC8FD0BCACF /* HHPlaceholderView-dummy.m */; };
-		1BBFA33824C82EF300B85165 /* HHPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFA33424C82EF300B85165 /* HHPlaceholderView.m */; };
-		1BBFA33924C82EF300B85165 /* UIView+HHPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBFA33524C82EF300B85165 /* UIView+HHPlaceholder.h */; };
-		1BBFA33A24C82EF300B85165 /* HHPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBFA33624C82EF300B85165 /* HHPlaceholderView.h */; };
-		1BBFA33B24C82EF300B85165 /* UIView+HHPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFA33724C82EF300B85165 /* UIView+HHPlaceholder.m */; };
+		0F1B282DC941D9BA715C451AEEE7F318 /* HHPlaceholderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F82FB97BF1D9E02275E6E9CD9502B32 /* HHPlaceholderView-dummy.m */; };
+		1C35AB3F21602309345A6273AA43BA33 /* UITableView+HHPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2D3E23FBDF47F2D0C3E246AEAB7DAA /* UITableView+HHPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359A2D422B8733B1EFAF6D9BF5D89406 /* Pods-HHPlaceholderView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1287D02A377512337EF79A65F6C7636 /* Pods-HHPlaceholderView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8953135A4F1D5CB0DD00EE2C6A0EFD54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49D6B1687E8342D4C89E897359390909 /* UIView+HHPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF383C07E575A13F31F2E583A742731 /* UIView+HHPlaceholder.m */; };
+		66B9ACC15C03522CA228ACC0CEF64B1E /* HHPlaceholderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 097A0CAFF360CBD8791727D2343E7700 /* HHPlaceholderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952CCE4278993D57C62D30FF30F97C91 /* UITableView+HHPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F827BBFCE3479DE09694A403D9021 /* UITableView+HHPlaceholder.m */; };
 		B21FFC76015F3D6C5CCE6DAE82A54AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D6303FC02758E99B2B33D1E3021F6681 /* HHPlaceholderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F659355CFCA9DF93F78F367A290E7D /* HHPlaceholderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94727EA962F9E0F5B42ECBDC1B5D17D /* HHPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF172B3521E0AC122D999A914924F3 /* HHPlaceholderView.m */; };
+		C9F68585550E4BA1D4A2D15069DB4D68 /* UIView+HHPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C43D2FEBEB88D2C76BB3A2F570DE3B /* UIView+HHPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDFE05FFA5499AEE03288664B3D71B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F9CBDC39A30B64D4630269E4BB6CE4E5 /* HHPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACF9D1AB976172C92CBAC0D72E65D85 /* HHPlaceholderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC5A286887F15AC41706342316C5C39E /* Pods-HHPlaceholderView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A430A4FA037EE552CD9B4561E61BB6 /* Pods-HHPlaceholderView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDC55756AB1D2478E8C061B3C8FCFC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -42,42 +44,52 @@
 /* Begin PBXFileReference section */
 		02D6D84B5E226CF061B0997750DEC99F /* Pods-HHPlaceholderView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHPlaceholderView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0532B9560A3B02D3301D03D8CD646962 /* Pods-HHPlaceholderView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPlaceholderView_Tests-Info.plist"; sourceTree = "<group>"; };
+		097A0CAFF360CBD8791727D2343E7700 /* HHPlaceholderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPlaceholderView-umbrella.h"; sourceTree = "<group>"; };
+		0D2D3E23FBDF47F2D0C3E246AEAB7DAA /* UITableView+HHPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+HHPlaceholder.h"; path = "HHPlaceholderView/Classes/HHPlaceholderView/UITableView+HHPlaceholder.h"; sourceTree = "<group>"; };
 		1196CE53CE2F6C917749FB72B0B64D5A /* Pods-HHPlaceholderView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHPlaceholderView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BBFA33424C82EF300B85165 /* HHPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPlaceholderView.m; sourceTree = "<group>"; };
-		1BBFA33524C82EF300B85165 /* UIView+HHPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHPlaceholder.h"; sourceTree = "<group>"; };
-		1BBFA33624C82EF300B85165 /* HHPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPlaceholderView.h; sourceTree = "<group>"; };
-		1BBFA33724C82EF300B85165 /* UIView+HHPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHPlaceholder.m"; sourceTree = "<group>"; };
+		15425FABAC000845025AB18D80D1CBC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1CF383C07E575A13F31F2E583A742731 /* UIView+HHPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HHPlaceholder.m"; path = "HHPlaceholderView/Classes/HHPlaceholderView/UIView+HHPlaceholder.m"; sourceTree = "<group>"; };
 		1F3D6F85700A2E039242FEC3CE4AFB6B /* Pods-HHPlaceholderView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHPlaceholderView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1F82FB97BF1D9E02275E6E9CD9502B32 /* HHPlaceholderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHPlaceholderView-dummy.m"; sourceTree = "<group>"; };
+		25776D754048D565B854AABE34E1AC9C /* HHPlaceholderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHPlaceholderView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		287405F325463B14904FE4E813892896 /* Pods-HHPlaceholderView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPlaceholderView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B3C96E9531BE20454EEECFE774A3E85 /* HHPlaceholderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHPlaceholderView-Info.plist"; sourceTree = "<group>"; };
 		2B7AA4620686E3C6B1C1BBCFBE9009AF /* Pods-HHPlaceholderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHPlaceholderView_Example.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34DDD7EF4101ABC317C712B97EAD8434 /* Pods-HHPlaceholderView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHPlaceholderView_Example-dummy.m"; sourceTree = "<group>"; };
+		539A1EA55B6E599B239FF54CA4B3C96A /* HHPlaceholderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHPlaceholderView-Info.plist"; sourceTree = "<group>"; };
+		53AF172B3521E0AC122D999A914924F3 /* HHPlaceholderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HHPlaceholderView.m; path = HHPlaceholderView/Classes/HHPlaceholderView/HHPlaceholderView.m; sourceTree = "<group>"; };
+		5FE42AFA2A44D6AFB88B4615F5DF126F /* HHPlaceholderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPlaceholderView-prefix.pch"; sourceTree = "<group>"; };
 		606B3BE2A9F567D4373D3525F9FE0F0E /* Pods_HHPlaceholderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHPlaceholderView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68859D25829F4B19D1556C72203F180F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6C81080D34DF6657DC742584B0FE3192 /* HHPlaceholderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHPlaceholderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE83F6352246CA53E44BB4F6D117716 /* Pods-HHPlaceholderView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPlaceholderView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82B859697A177C7F3C68B193F6522F53 /* Pods-HHPlaceholderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPlaceholderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8322862A533943FBADE0FE6EF31F1EFA /* HHPlaceholderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPlaceholderView-prefix.pch"; sourceTree = "<group>"; };
 		8E68A02D9BBCA6A79B11EC113B677995 /* Pods-HHPlaceholderView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPlaceholderView_Example-Info.plist"; sourceTree = "<group>"; };
+		8F9C3052E50ECE915D0B92DF47EC3BDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9A7C56386ACE5B897BE9D549AEC43C4B /* Pods-HHPlaceholderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHPlaceholderView_Tests.modulemap"; sourceTree = "<group>"; };
+		9ACF9D1AB976172C92CBAC0D72E65D85 /* HHPlaceholderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HHPlaceholderView.h; path = HHPlaceholderView/Classes/HHPlaceholderView/HHPlaceholderView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C43D2FEBEB88D2C76BB3A2F570DE3B /* UIView+HHPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HHPlaceholder.h"; path = "HHPlaceholderView/Classes/HHPlaceholderView/UIView+HHPlaceholder.h"; sourceTree = "<group>"; };
 		AC54C57CF10C0F25A2D01189BFA67682 /* Pods-HHPlaceholderView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPlaceholderView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3A5D3299CAFE707CD3BECE468BA40F5 /* HHPlaceholderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHPlaceholderView.modulemap; sourceTree = "<group>"; };
-		B3F659355CFCA9DF93F78F367A290E7D /* HHPlaceholderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPlaceholderView-umbrella.h"; sourceTree = "<group>"; };
-		B4D066B77374918D586AE3814B7BC361 /* HHPlaceholderView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHPlaceholderView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1A3FC62B21697CBDB1908D58C767046 /* HHPlaceholderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHPlaceholderView.modulemap; sourceTree = "<group>"; };
 		C1287D02A377512337EF79A65F6C7636 /* Pods-HHPlaceholderView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHPlaceholderView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C28F827BBFCE3479DE09694A403D9021 /* UITableView+HHPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HHPlaceholder.m"; path = "HHPlaceholderView/Classes/HHPlaceholderView/UITableView+HHPlaceholder.m"; sourceTree = "<group>"; };
 		CF97D48EE3AC26F3809A714F0737032C /* Pods-HHPlaceholderView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPlaceholderView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D443E9F03FAF7B634EE99A68ED714E9F /* Pods-HHPlaceholderView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHPlaceholderView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D9271B0C6980CD11E6799CC8FD0BCACF /* HHPlaceholderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHPlaceholderView-dummy.m"; sourceTree = "<group>"; };
-		DA026A38EA93812DD0BE4742FCB5B2C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB67066923C1ABA5D0DB8571DF6F3A75 /* Pods_HHPlaceholderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHPlaceholderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9CBF96F502E8DCF43E239373BBE0A1 /* HHPlaceholderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHPlaceholderView.xcconfig; sourceTree = "<group>"; };
+		E5ED6196E829EEA440813107DC503038 /* HHPlaceholderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHPlaceholderView.xcconfig; sourceTree = "<group>"; };
 		F9A430A4FA037EE552CD9B4561E61BB6 /* Pods-HHPlaceholderView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHPlaceholderView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FB804E87B9FA71A262D5663B9280C9F3 /* Pods-HHPlaceholderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPlaceholderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6133D4DB97DA6A7837690590D066D221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDFE05FFA5499AEE03288664B3D71B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		724639498F1DB4C9C1A9392E9C23FA3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,33 +106,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D39009711109616F0D6E99A721283D5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8953135A4F1D5CB0DD00EE2C6A0EFD54 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BBFA33324C82EF300B85165 /* HHPlaceholderView */ = {
+		31C9AAFC76A6D108CC09A72CE30CFDC3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1BBFA33424C82EF300B85165 /* HHPlaceholderView.m */,
-				1BBFA33524C82EF300B85165 /* UIView+HHPlaceholder.h */,
-				1BBFA33624C82EF300B85165 /* HHPlaceholderView.h */,
-				1BBFA33724C82EF300B85165 /* UIView+HHPlaceholder.m */,
+				B1A3FC62B21697CBDB1908D58C767046 /* HHPlaceholderView.modulemap */,
+				E5ED6196E829EEA440813107DC503038 /* HHPlaceholderView.xcconfig */,
+				1F82FB97BF1D9E02275E6E9CD9502B32 /* HHPlaceholderView-dummy.m */,
+				539A1EA55B6E599B239FF54CA4B3C96A /* HHPlaceholderView-Info.plist */,
+				5FE42AFA2A44D6AFB88B4615F5DF126F /* HHPlaceholderView-prefix.pch */,
+				097A0CAFF360CBD8791727D2343E7700 /* HHPlaceholderView-umbrella.h */,
 			);
-			name = HHPlaceholderView;
-			path = HHPlaceholderView/Classes/HHPlaceholderView;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HHPlaceholderView";
 			sourceTree = "<group>";
 		};
-		1DF5371D50C6ED2F690C2CE490752C3F /* Development Pods */ = {
+		39E71EAC1BDC81740208EDF3F1C52E0D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90F35CDEF8F2F0A29FECB554269FE7ED /* HHPlaceholderView */,
+				B98186F75201B4D34334A63469568EEA /* HHPlaceholderView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -167,39 +173,30 @@
 			path = "Target Support Files/Pods-HHPlaceholderView_Example";
 			sourceTree = "<group>";
 		};
-		6190ED000FDFE525C367EFE845E4F7E5 /* Support Files */ = {
+		79D2561BF7D930B6E9CD0E59F481BD8F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B3A5D3299CAFE707CD3BECE468BA40F5 /* HHPlaceholderView.modulemap */,
-				EA9CBF96F502E8DCF43E239373BBE0A1 /* HHPlaceholderView.xcconfig */,
-				D9271B0C6980CD11E6799CC8FD0BCACF /* HHPlaceholderView-dummy.m */,
-				2B3C96E9531BE20454EEECFE774A3E85 /* HHPlaceholderView-Info.plist */,
-				8322862A533943FBADE0FE6EF31F1EFA /* HHPlaceholderView-prefix.pch */,
-				B3F659355CFCA9DF93F78F367A290E7D /* HHPlaceholderView-umbrella.h */,
+				25776D754048D565B854AABE34E1AC9C /* HHPlaceholderView.podspec */,
+				8F9C3052E50ECE915D0B92DF47EC3BDA /* LICENSE */,
+				15425FABAC000845025AB18D80D1CBC9 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HHPlaceholderView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		90F35CDEF8F2F0A29FECB554269FE7ED /* HHPlaceholderView */ = {
+		B98186F75201B4D34334A63469568EEA /* HHPlaceholderView */ = {
 			isa = PBXGroup;
 			children = (
-				1BBFA33324C82EF300B85165 /* HHPlaceholderView */,
-				9C9FED7511725A51B2766BB361D2F3CC /* Pod */,
-				6190ED000FDFE525C367EFE845E4F7E5 /* Support Files */,
+				9ACF9D1AB976172C92CBAC0D72E65D85 /* HHPlaceholderView.h */,
+				53AF172B3521E0AC122D999A914924F3 /* HHPlaceholderView.m */,
+				0D2D3E23FBDF47F2D0C3E246AEAB7DAA /* UITableView+HHPlaceholder.h */,
+				C28F827BBFCE3479DE09694A403D9021 /* UITableView+HHPlaceholder.m */,
+				A5C43D2FEBEB88D2C76BB3A2F570DE3B /* UIView+HHPlaceholder.h */,
+				1CF383C07E575A13F31F2E583A742731 /* UIView+HHPlaceholder.m */,
+				79D2561BF7D930B6E9CD0E59F481BD8F /* Pod */,
+				31C9AAFC76A6D108CC09A72CE30CFDC3 /* Support Files */,
 			);
 			name = HHPlaceholderView;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9C9FED7511725A51B2766BB361D2F3CC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B4D066B77374918D586AE3814B7BC361 /* HHPlaceholderView.podspec */,
-				68859D25829F4B19D1556C72203F180F /* LICENSE */,
-				DA026A38EA93812DD0BE4742FCB5B2C5 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -214,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1DF5371D50C6ED2F690C2CE490752C3F /* Development Pods */,
+				39E71EAC1BDC81740208EDF3F1C52E0D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F4362AA770C6341664D74F393CD6E82F /* Products */,
 				535D87F19ED463FD80546D8893186077 /* Targets Support Files */,
@@ -250,13 +247,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		584407D53717E88AC88131301418B893 /* Headers */ = {
+		A4BA410D4AFEFCBBA20478854F8B3D7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6303FC02758E99B2B33D1E3021F6681 /* HHPlaceholderView-umbrella.h in Headers */,
-				1BBFA33A24C82EF300B85165 /* HHPlaceholderView.h in Headers */,
-				1BBFA33924C82EF300B85165 /* UIView+HHPlaceholder.h in Headers */,
+				66B9ACC15C03522CA228ACC0CEF64B1E /* HHPlaceholderView-umbrella.h in Headers */,
+				F9CBDC39A30B64D4630269E4BB6CE4E5 /* HHPlaceholderView.h in Headers */,
+				1C35AB3F21602309345A6273AA43BA33 /* UITableView+HHPlaceholder.h in Headers */,
+				C9F68585550E4BA1D4A2D15069DB4D68 /* UIView+HHPlaceholder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +271,12 @@
 /* Begin PBXNativeTarget section */
 		922791C24AFD973D2106220D3D660712 /* HHPlaceholderView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73091CBDCFA9803011B809D18400058C /* Build configuration list for PBXNativeTarget "HHPlaceholderView" */;
+			buildConfigurationList = A56EBFC8FA4AD0031E6E8FB4F6D564B7 /* Build configuration list for PBXNativeTarget "HHPlaceholderView" */;
 			buildPhases = (
-				584407D53717E88AC88131301418B893 /* Headers */,
-				EF7B6F787B347175B1CC5A9D40FAD9B9 /* Sources */,
-				D39009711109616F0D6E99A721283D5E /* Frameworks */,
-				5C04740FDE55DDE9FC7724A5F291DF53 /* Resources */,
+				A4BA410D4AFEFCBBA20478854F8B3D7C /* Headers */,
+				0324896F8FFB753DADF649C7926953E9 /* Sources */,
+				6133D4DB97DA6A7837690590D066D221 /* Frameworks */,
+				CC5AA468B854D84B21ABFC5E9BA2B750 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -371,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C04740FDE55DDE9FC7724A5F291DF53 /* Resources */ = {
+		CC5AA468B854D84B21ABFC5E9BA2B750 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,6 +379,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0324896F8FFB753DADF649C7926953E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1B282DC941D9BA715C451AEEE7F318 /* HHPlaceholderView-dummy.m in Sources */,
+				C94727EA962F9E0F5B42ECBDC1B5D17D /* HHPlaceholderView.m in Sources */,
+				952CCE4278993D57C62D30FF30F97C91 /* UITableView+HHPlaceholder.m in Sources */,
+				49D6B1687E8342D4C89E897359390909 /* UIView+HHPlaceholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08440C39C3DB62483B27D5057CA1E73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,16 +403,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				073DBD9C0B5606E9679C52E0E912CF93 /* Pods-HHPlaceholderView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF7B6F787B347175B1CC5A9D40FAD9B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BBFA33B24C82EF300B85165 /* UIView+HHPlaceholder.m in Sources */,
-				1394D1CA95C7087F219BD46650FD0C6D /* HHPlaceholderView-dummy.m in Sources */,
-				1BBFA33824C82EF300B85165 /* HHPlaceholderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +424,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2264F86A9B0D58B300F261206679C581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ED6196E829EEA440813107DC503038 /* HHPlaceholderView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HHPlaceholderView/HHPlaceholderView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HHPlaceholderView/HHPlaceholderView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HHPlaceholderView/HHPlaceholderView.modulemap";
+				PRODUCT_MODULE_NAME = HHPlaceholderView;
+				PRODUCT_NAME = HHPlaceholderView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3B54044F3AD358933792A580ECE61E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC54C57CF10C0F25A2D01189BFA67682 /* Pods-HHPlaceholderView_Tests.release.xcconfig */;
@@ -552,9 +583,9 @@
 			};
 			name = Release;
 		};
-		7C024A42673133ECE7C824246D49CC4B /* Release */ = {
+		7D346A8974599CEECC275AE663217E67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9CBF96F502E8DCF43E239373BBE0A1 /* HHPlaceholderView.xcconfig */;
+			baseConfigurationReference = E5ED6196E829EEA440813107DC503038 /* HHPlaceholderView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,11 +609,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -681,37 +711,6 @@
 			};
 			name = Debug;
 		};
-		9F1AE22ADA653F2AC7EDBCD9E35604E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9CBF96F502E8DCF43E239373BBE0A1 /* HHPlaceholderView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HHPlaceholderView/HHPlaceholderView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HHPlaceholderView/HHPlaceholderView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HHPlaceholderView/HHPlaceholderView.modulemap";
-				PRODUCT_MODULE_NAME = HHPlaceholderView;
-				PRODUCT_NAME = HHPlaceholderView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BC865210A84BDD0CE2D26206DE532D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82B859697A177C7F3C68B193F6522F53 /* Pods-HHPlaceholderView_Tests.debug.xcconfig */;
@@ -775,11 +774,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73091CBDCFA9803011B809D18400058C /* Build configuration list for PBXNativeTarget "HHPlaceholderView" */ = {
+		A56EBFC8FA4AD0031E6E8FB4F6D564B7 /* Build configuration list for PBXNativeTarget "HHPlaceholderView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F1AE22ADA653F2AC7EDBCD9E35604E6 /* Debug */,
-				7C024A42673133ECE7C824246D49CC4B /* Release */,
+				7D346A8974599CEECC275AE663217E67 /* Debug */,
+				2264F86A9B0D58B300F261206679C581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

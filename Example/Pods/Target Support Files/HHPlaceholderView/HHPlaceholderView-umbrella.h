@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "HHPlaceholderView.h"
+#import "UITableView+HHPlaceholder.h"
+#import "UIView+HHPlaceholder.h"
 
 FOUNDATION_EXPORT double HHPlaceholderViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char HHPlaceholderViewVersionString[];
