@@ -9,7 +9,6 @@
 #import "HHViewController.h"
 #import "HHPlaceholderView.h"
 #import "UIView+HHPlaceholder.h"
-#import "UITableView+HHPlaceholder.h"
 @interface HHViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong)UITableView *tableView;
 @property (nonatomic, strong)NSMutableArray *objects;
